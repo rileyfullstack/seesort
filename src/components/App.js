@@ -150,7 +150,7 @@ const App = () => {
     setInspectedIndex(-1);
   
     // Animate completion
-    const totalGreeningTime = 2000; // 3 seconds
+    const totalGreeningTime = 1000; // 3 seconds
     const delayBetweenColumns = totalGreeningTime / sortedArray.length;
   
     for (let i = 0; i < sortedArray.length; i++) {
